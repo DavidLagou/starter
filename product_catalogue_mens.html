@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> STARTER - Mens </title>
+    <link rel="stylesheet" href="css/global.css">
+    <script src="js/toggleMenu.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+    <nav class="nav-bar">
+        <span class="nav-btn nav-home"><a href="home.html">STARTER</a></span>
+        <ul id="collapseMenu" class="nav-bar-collapse">
+            <li class="nav-btn item"><a href="product_catalogue_mens.html">Mens</a></li>
+            <li class="nav-btn item"><a href="product_catalogue_womens.html">Womens</a></li>
+            <li class="nav-btn item"><a href="product_catalogue_kids.html">Kids</a></li>
+            <li class="nav-btn item"><a href="about.html">About</a></li>
+            <li class="nav-btn item"><a href="contact.html">Contact</a></li>
+            <li class="nav-btn"><a href="#"><input class="searchBox" type="text" placeholder="Search"> </a></li>
+        </ul>
+
+        <div class="menu-toggle" onclick="toggleMenu();">
+            <img class="toggle-btn" src="img/hamburger.svg">
+        </div>
+    </nav>
+
+
+    <!-- banner example-->
+    <header>
+        <p> <a href="home.html"> HOME / MENS</a></p>
+
+        <div class="product-page-text">
+            <h1 style="margin-left: 40px;"> Mens Shoes</h1>
+            
+
+
+            <div class="product-search">
+
+                <label class="product-filter" for="filter">Sort by</label>
+                <select class="product-filter-items" id="filter">
+                    <option value="High">High to Low</option>
+                    <option value="Low">Low to High</option>
+                    <option value="opel">New Arrivals</option>
+                    <option value="audi">Best Sellers</option>
+                </select>
+            </div>
+
+        </div>
+    </header>
+
+
+    <main>
+
+        <div class="mobilefilter">
+            <p> Running</p>
+            <p> Casual</p>
+            <p> Running</p>
+            <p> Hiking</p>
+        </div>
+
+        <div class="master-grid">
+
+            <div class="product-filter">
+
+                <h2> Filter By</h2>
+
+                <div class="filter-activity">
+                    <h3> Activity</h3>
+
+                    <ul>
+                        <li><input type="checkbox" name="Running" id="">
+                            <label for=""> Running (250)</label> </li>
+
+
+                        <li><input type="checkbox" name="Running" id="">
+                            <label for=""> Football (100)</label></li>
+
+                        <li><input type="checkbox" name="Running" id="">
+                            <label for=""> Casual (85)</label></li>
+
+                        <li><input type="checkbox" name="Running" id="">
+                            <label for=""> Hiking (20)</label></li>
+
+                    </ul>
+                </div>
+
+                <div class="filter-activity">
+                    <h3> Brand</h3>
+                    <ul>
+                        <li><input type="checkbox" name="Running" id="">
+                            <label for=""> Nike</label></li>
+
+                        <li><input type="checkbox" name="Running" id="">
+                            <label for=""> Adidas</label></li>
+
+                       <li><input type="checkbox" name="Running" id="">
+                            <label for=""> Reebok</label></li>
+
+                        <li><input type="checkbox" name="Running" id="">
+                            <label for=""> Under Armour</label></li>
+
+                    </ul>
+                </div>
+
+                <div class="filter-activity">
+                    <h3> Color</h3>
+                    <ul>
+                        <li> <a href="#"> <span> <i style="color: black;" class="fa fa-circle"></i></span> Black</a>
+                        </li>
+
+                        <li> <a href="#"> <span> <i style="color: rgb(255, 255, 255);" class="fa fa-circle"></i></span>
+                                White</a>
+                        </li>
+                        <li> <a href="#"> <span> <i style="color: red;" class="fa fa-circle"></i></span> Red</a>
+                        </li>
+                        <li> <a href="#"> <span> <i style="color: blue;" class="fa fa-circle"></i></span> Blue</a>
+                        </li>
+
+
+                    </ul>
+                </div>
+
+
+            </div>
+
+
+            <div class="products-grid">
+
+
+                <div class="product-grid-card one">
+                    <a href="product-page-mens.html">
+                        <img class="product-grid-img" src="img/1.png" alt="">
+                        <div class="product-catalogue-text">
+                            <p> Reebok290</p>
+                            <p> Basketball</p>
+                            <p class="price"> $120</p>
+                        </div>
+                    </a>
+
+
+                </div>
+
+
+
+                <div class="product-grid-card two">
+                    <a href="product-page-mens.html"></a>
+                    <img class="product-grid-img" src="img/mens2.png" alt="">
+                    <div class="product-catalogue-text">
+                        <p> Reebok290</p>
+                        <p> Basketball</p>
+                        <p class="price"> $120</p>
+                    </div>
+                    </a>
+                </div>
+
+                <div class="product-grid-card three">
+
+                    <img class="product-grid-img" src="img/mens3.png" alt="">
+                    <div class="product-catalogue-text">
+                        <p> Dunk 21s</p>
+                        <p> Running</p>
+                        <p class="price"> $120</p>
+
+                    </div>
+                </div>
+
+                <div class="product-grid-card 4">
+
+                    <img class="product-grid-img" src="img/mens4.png" alt="">
+                    <div class="product-catalogue-text">
+                        <p> Zoom3000</p>
+                        <p> Running</p>
+                        <p class="price"> $120</p>
+
+                    </div>
+                </div>
+
+                <div class="product-grid-card 5">
+
+                    <img class="product-grid-img" src="img/mens5.png" alt="">
+                    <div class="product-catalogue-text">
+                        <p> Dizzy Max</p>
+                        <p> Running</p>
+                        <p class="price"> $120</p>
+
+
+
+
+                    </div>
+                </div>
+
+                <div class="product-grid-card 6">
+
+                    <img class="product-grid-img" src="img/mens6.png" alt="">
+                    <div class="product-catalogue-text">
+                        <p> name of shoe</p>
+                        <p> Running</p>
+                        <p class="price"> $120</p>
+                    </div>
+                </div>
+
+                <div class="product-grid-card 6">
+
+                    <img class="product-grid-img" src="img/mens7.png" alt="">
+                    <div class="product-catalogue-text">
+                        <p> name of shoe</p>
+                        <p> Running</p>
+                        <p class="price"> $120</p>
+                    </div>
+                </div>
+                <div class="product-grid-card 6">
+
+                    <img class="product-grid-img" src="img/mens8.png" alt="">
+                    <div class="product-catalogue-text">
+                        <p> name of shoe</p>
+                        <p> Running</p>
+                        <p class="price"> $120</p>
+                    </div>
+                </div>
+                <div class="product-grid-card 6">
+
+                    <img class="product-grid-img" src="img/mens9.png" alt="">
+                    <div class="product-catalogue-text">
+                        <p> name of shoe</p>
+                        <p> Running</p>
+                        <p class="price"> $120</p>
+                    </div>
+                </div>
+
+                <div class="product-grid-card 6">
+
+                    <img class="product-grid-img" src="img/mens10.png" alt="">
+                    <div class="product-catalogue-text">
+                        <p> name of shoe</p>
+                        <p> Running</p>
+                        <p class="price"> $120</p>
+                    </div>
+                </div>
+                <div class="product-grid-card 6">
+
+                    <img class="product-grid-img" src="img/mens11.png" alt="">
+                    <div class="product-catalogue-text">
+                        <p> name of shoe</p>
+                        <p> Running</p>
+                        <p class="price"> $120</p>
+                    </div>
+                </div>
+
+                <div class="product-grid-card 6">
+
+                    <img class="product-grid-img" src="img/mens12.png" alt="">
+                    <div class="product-catalogue-text">
+                        <p> name of shoe</p>
+                        <p> Running</p>
+                        <p class="price"> $120</p>
+                    </div>
+                </div>
+
+
+
+
+
+
+                <div class="product-page-numbers">
+                    <p><i class="fa fa-arrow-left"></i></p>
+                    <p> 1 OF 3</p>
+                    <p><i class="fa fa-arrow-right"></i></p>
+
+
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+
+
+
+        </div>
+    </main>
+
+
+
+    <footer class="footer-distributed">
+
+        <div class="footer-right">
+
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <a href="#"><i class="fa fa-github"></i></a>
+
+        </div>
+
+        <div class="footer-left">
+
+            <p class="footer-links">
+                <a class="link-1" href="#">Home</a>
+
+                <a href="product-page-mens.html">Men</a>
+
+                <a href="product_catalogue_womens.html">Women</a>
+
+                <a href="contact.html">Contact</a>
+
+                <a href="about.html">About</a>
+            </p>
+
+            <p> STARTER &copy; 2020</p>
+        </div>
+
+    </footer>
+</body>
+
+</html>

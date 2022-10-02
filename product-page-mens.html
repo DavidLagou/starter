@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> STARTER - Mens </title>
+    <link rel="stylesheet" href="css/global.css">
+    <script src="js/toggleMenu.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body onload="setSlides(0);">
+
+    <nav class="nav-bar">
+        <span class="nav-btn nav-home"><a href="home.html">STARTER</a></span>
+        <ul id="collapseMenu" class="nav-bar-collapse">
+            <li class="nav-btn item"><a href="product_catalogue_mens.html">Mens</a></li>
+            <li class="nav-btn item"><a href="product_catalogue_womens.html">Womens</a></li>
+            <li class="nav-btn item"><a href="product_catalogue_kids.html">Kids</a></li>
+            <li class="nav-btn item"><a href="about.html">About</a></li>
+            <li class="nav-btn item"><a href="contact.html">Contact</a></li>
+            <li class="nav-btn"><a href="#"><input  class="searchBox"type="text" placeholder="Search"> </a></li>
+        </ul>
+
+        <div class="menu-toggle" onclick="toggleMenu();">
+            <img class="toggle-btn" src="img/hamburger.svg">
+        </div>
+    </nav>
+
+
+    <!-- banner example-->
+    <header class="product-header">
+        <p> <a href="home.html"> HOME</a> <a href="product_catalogue_mens.html"> / MENS</a> / YEEXUS 91 </p>
+
+        <div class="product-page-text">
+            <h1> Mens Shoes</h1>
+
+            <div class="featured-product-name">
+                <h1> Yeexus 961</h1>
+                <p> <strong> $150 </strong></p>
+
+            </div>
+
+        </div>
+    </header>
+
+
+    <main>
+        <div class="featured-main">
+
+            <div class="product-featured-grid">
+
+                <div class="featured-img-container">
+                    <img id="mainImg" class="featured-img" src="img/1.png" alt="">
+
+                    <div class="featured-img-option-container">
+                        <!-- <p><i class="fa fa-arrow-left"></i></p> -->
+
+                        <img onclick="setSlides(0);" class="featured-img-option" src="img/1.png" alt="">
+                        <img onclick="setSlides(1);" class="featured-img-option" src="img/2.png" alt="">
+                        <img onclick="setSlides(2);" class="featured-img-option" src="img/3.png" alt="">
+
+                        <!-- <p><i class="fa fa-arrow-right"></i></p> -->
+
+
+                    </div>
+
+                </div>
+
+                <div class="featured-product-details">
+
+                    <div class="product-description">
+                       
+                        <h2> Product Description</h2>
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit sequi repudiandae rem at
+                            exercitationem consequuntur quae doloribus excepturi dolorem laborum, explicabo doloremque
+                            reiciendis aliquid, sunt possimus ipsum nam, cupiditate ab.</p>
+                        <h2> Sizes</h2>
+                        <div class="shoe-sizes">
+                            <!-- display flex this -->
+                            <p>05</p>
+                            <p>06</p>
+                            <p>07</p>
+                            <p>08</p>
+                            <p>09</p>
+                            <p>10</p>
+                            <p>11</p>
+                            <p>12</p>
+                        </div>
+                        <h2> Features</h2>
+                        <ul>
+                            <li> 100% waterproof</li>
+                            <li> HSB certified </li>
+                            <li> 100% waterproof</li>
+                            <li> 100% waterproof</li>
+                        </ul>
+
+                        <br>
+                        <button class="featured-button"> ADD TO BAG</button>
+                    </div>
+
+                </div>
+            </div>
+
+            <hr>
+
+
+
+            <section class="additional-features">
+
+                <h2> YOU MAY ALSO LIKE</h2>
+
+                <div class="recom-content-container">
+
+                    <div class="trending-grid-card1">
+                        <a href="#"></a>
+                        <img class="gender-grid-img" src="img/mens8.png" alt="">
+                        <div class="trending-text">
+                            <p> Air Jordan</p>
+                            <p> Running</p>
+
+                            <div class="stars">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="trending-grid-card2">
+                        <img class="gender-grid-img" src="img/mens4.png" alt="">
+                        <div class="trending-text">
+                            <p> Air Max</p>
+                            <p> Running</p>
+
+                            <div class="stars">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="trending-grid-card3">
+                        <img class="gender-grid-img" src="img/mens2.png" alt="">
+                        <div class="trending-text">
+                            <p> Spacers</p>
+                            <p> Lifting</p>
+
+                            <div class="stars">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+
+
+
+
+            <h2 class="customerFeedbackTextHeader"> CUSTOMER FEEDBACK</h2>
+            <div class="customer-feedback-grid">
+                <!-- display flex : row for two container  -->
+
+                <div class="rating-score">
+                    <!-- display flex : column -->
+
+                    <h2> 4.1</h2>
+                    <p> Overall</p>
+                    <div class="stars-row">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+
+                </div>
+
+
+
+
+                <div class="star-benchmark-container">
+
+                    <!-- display flex column -->
+
+                    <div class="star-benchmark-single">
+                        <!-- display flex row -->
+                        <p> 5 stars</p>
+                        <div class="stars-row">
+                            <!-- display row -->
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span>(43)</span>
+                        </div>
+
+
+                    </div>
+
+                    <div class="star-benchmark-single">
+                        <!-- display flex row -->
+                        <p> 4 stars</p>
+                        <div class="stars-row">
+                            <!-- display row -->
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span>(93)</span>
+                        </div>
+                    </div>
+
+                    <div class="star-benchmark-single">
+                        <!-- display flex row -->
+                        <p> 3 stars</p>
+                        <div class="stars-row">
+                            <!-- display row -->
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star "></span>
+                            <span class="fa fa-star"></span>
+                            <span>(2)</span>
+                        </div>
+                    </div>
+
+                    <div class="star-benchmark-single">
+                        <!-- display flex row -->
+                        <p> 2 stars</p>
+                        <div class="stars-row">
+                            <!-- display row -->
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star "></span>
+                            <span class="fa fa-star "></span>
+                            <span class="fa fa-star"></span>
+                            <span>(10)</span>
+                        </div>
+                    </div>
+
+                    <div class="star-benchmark-single">
+                        <!-- display flex row -->
+                        <p> 1 stars</p>
+                        <div class="stars-row">
+                            <!-- display row -->
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star "></span>
+                            <span class="fa fa-star "></span>
+                            <span class="fa fa-star "></span>
+                            <span class="fa fa-star"></span>
+                            <span>(50)</span>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+
+            </div>
+
+            <div class="customer-comment-container">
+                <h2 style="text-align: center; padding-bottom: 10px;"> REVIEWS</h2>
+                <!-- display column -->
+                <div class="single-comment-container">
+                    <!-- display row -->
+                    <p class="customerNameTxt"> BR</p>
+                    <div class="customer-comment-text">
+                        <!-- display column -->
+                        <h3> Bob Ross</h3>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, autem alias? </p>
+                    </div>
+                    <div class="customer-comment-date">
+                        <!-- display column -->
+                        <p> March 13 2020</p>
+                        <h3> 3.1</h3>
+
+                    </div>
+
+                </div>
+
+
+                <div class="single-comment-container">
+                    <!-- display row -->
+                    <p class="customerNameTxt"> DL</p>
+                    <div class="customer-comment-text">
+                        <!-- display column -->
+                        <h3> David Lagou</h3>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, autem alias? </p>
+                    </div>
+                    <div class="customer-comment-date">
+                        <!-- display column -->
+                        <p> February 4 2020</p>
+                        <h3> 4.1</h3>
+                    </div>
+                </div>
+
+
+                <div class="single-comment-container">
+                    <!-- display row -->
+                    <p class="customerNameTxt"> JS</p>
+                    <div class="customer-comment-text">
+                        <!-- display column -->
+                        <h3> John Smith</h3>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, autem alias? </p>
+                    </div>
+                    <div class="customer-comment-date">
+                        <!-- display column -->
+                        <p> January 20 2020 </p>
+                        <h3> 3.7</h3>
+
+                    </div>
+
+                </div>
+
+
+
+
+
+
+
+
+
+            </div>
+
+
+        </div><!-- featured main div end  -->
+
+    </main>
+
+
+
+    <footer class="footer-distributed">
+
+        <div class="footer-right">
+
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <a href="#"><i class="fa fa-github"></i></a>
+
+        </div>
+
+        <div class="footer-left">
+
+            <p class="footer-links">
+                <a class="link-1" href="#">Home</a>
+
+                <a href="product-page-mens.html">Men</a>
+
+                <a href="product_catalogue_womens.html">Women</a>
+
+                <a href="contact.html">Contact</a>
+
+                <a href="about.html">About</a>
+            </p>
+
+            <p> STARTER &copy; 2020</p>
+        </div>
+
+    </footer>
+</body>
+<script src="js/imageSlider.js"> </script>
+</html>
